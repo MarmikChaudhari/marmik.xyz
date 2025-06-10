@@ -64,7 +64,7 @@ export function Home() {
             <SectionContent>
               <div className='prose -mb-8 font-instrument-serif'>
                 <p>
-                  hey, welcome to my web <em>eden</em>. i&apos;m a 20 yo cs + math major at penn state university. i spend most of my time working on <em>interpretability</em> research for neural nets, reading deep learning papers and exploring math.
+                  hey, welcome to my web <em>eden</em>. i&apos;m a 20 yo cs + math major at uc berkeley. i spend most of my time working on <em>interpretability</em> research for neural nets, reading deep learning papers and exploring math.
                   apart from this, i&apos;ve been <em>painting</em> since a long time and have also been learning to play <em>guitar</em> recently. i also love watching movies and reading <Link href='/books' className='text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-200 font-instrument-serif'>books</Link>.
                 </p>
                 <p className='-mb-2'>
