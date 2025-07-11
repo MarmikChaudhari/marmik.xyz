@@ -4,17 +4,17 @@ import { PaintingsColumn } from './PaintingsColumn'
 
 // Actual paintings from static/paintings folder
 const paintings = [
-  { image: "/static/paintings/van-gogh.JPG" },
-  { image: "/static/paintings/spiders.JPG" },
-  { image: "/static/paintings/sparrow.JPG" },
-  { image: "/static/paintings/shiv.JPG" },
-  { image: "/static/paintings/shawn-2.JPG" },
-  { image: "/static/paintings/shawn-1.JPG" },
-  { image: "/static/paintings/horse.JPG" },
-  { image: "/static/paintings/eiffel.JPG" },
-  { image: "/static/paintings/cold-paint.JPG" },
-  { image: "/static/paintings/batman.JPG" },
-  { image: "/static/paintings/abstract-eye.JPG" }
+  { image: '/static/paintings/van-gogh.JPG' },
+  { image: '/static/paintings/spiders.JPG' },
+  { image: '/static/paintings/sparrow.JPG' },
+  { image: '/static/paintings/shiv.JPG' },
+  { image: '/static/paintings/shawn-2.JPG' },
+  { image: '/static/paintings/shawn-1.JPG' },
+  { image: '/static/paintings/horse.JPG' },
+  { image: '/static/paintings/eiffel.JPG' },
+  { image: '/static/paintings/cold-paint.JPG' },
+  { image: '/static/paintings/batman.JPG' },
+  { image: '/static/paintings/abstract-eye.JPG' }
 ]
 
 export const Paintings = () => {

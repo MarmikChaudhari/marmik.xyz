@@ -9,13 +9,13 @@ export const PaintingsColumn = (props) => {
     <div className={className}>
       <motion.div
         animate={{
-          translateY: "-50%",
+          translateY: '-50%',
         }}
         transition={{
           duration: duration,
           repeat: Infinity,
-          ease: "linear",
-          repeatType: "loop",
+          ease: 'linear',
+          repeatType: 'loop',
         }}
         className="flex flex-col gap-6 pb-6"
       >
