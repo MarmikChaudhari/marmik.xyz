@@ -35,7 +35,7 @@ export default function TransformersBlog({ blogContent }) {
     <>
       <Head>
         <title>transformers</title>
-        <meta property='og:title' content='mathematical intuition for transformers • marmik' key='title' />
+        <meta property='og:title' content='transformers' key='title' />
       </Head>
       <Detail.Container>
         <Detail.ContentContainer>
