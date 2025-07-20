@@ -7,11 +7,11 @@ export function BookCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ 
     loop: false,
     align: 'start',
-    slidesToScroll: 3, // Scroll 3 books at a time
+    slidesToScroll: 2, // Scroll 3 books at a time
     breakpoints: {
-      '(min-width: 640px)': { slidesToScroll: 3 },
-      '(min-width: 768px)': { slidesToScroll: 3 },
-      '(min-width: 1024px)': { slidesToScroll: 3 }
+      '(min-width: 640px)': { slidesToScroll: 1 },
+      '(min-width: 768px)': { slidesToScroll: 1 },
+      '(min-width: 1024px)': { slidesToScroll: 2 }
     }
   })
 
@@ -40,7 +40,7 @@ export function BookCarousel() {
   }, [emblaApi, onSelect])
 
   return (
-    <div className="w-full max-w-4xl mx-auto">
+    <div className="w-full mx-auto">
       <div className="relative px-12"> {/* Added horizontal padding for button space */}
         {/* Embla Carousel */}
         <div className="embla overflow-hidden" ref={emblaRef}>
@@ -48,7 +48,7 @@ export function BookCarousel() {
             {booksData.map((book, index) => (
               <div 
                 key={book.slug}
-                className="embla__slide flex-[0_0_auto] min-w-0 px-2 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5"
+                className="embla__slide flex-[0_0_auto] min-w-0 px-2 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/3"
               >
                 <div className="group cursor-pointer">
                   <div className="relative aspect-[2/3] overflow-hidden rounded-lg shadow-md transition-all duration-300 group-hover:shadow-xl group-hover:scale-105 flex items-center justify-center bg-gray-100 dark:bg-gray-800">

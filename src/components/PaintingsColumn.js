@@ -30,11 +30,11 @@ export const PaintingsColumn = (props) => {
                     width={0}
                     height={0}
                     sizes="100vw"
-                    className="w-auto h-auto max-w-sm"
+                    className="w-auto h-auto max-w-full"
                     style={{
                       width: 'auto',
                       height: 'auto',
-                      maxWidth: '400px'
+                      maxWidth: '600px'
                     }}
                   />
                 </div>

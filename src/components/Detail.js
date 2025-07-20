@@ -10,7 +10,7 @@ export function Container({ children }) {
 
 export function ContentContainer({ children }) {
   return (
-    <div className='mx-auto w-full max-w-2xl mt-4 sm:mt-8 mb-52 md:mb-32 px-8'>
+    <div className='mx-auto w-full max-w-3xl mt-4 sm:mt-8 mb-52 md:mb-32 px-8'>
       {children}
     </div>
   )

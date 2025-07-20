@@ -4,15 +4,6 @@ import Link from 'next/link'
 import { BookCarousel } from './BookCarousel'
 import { Paintings } from './Paintings'
 
-function SectionTitle(props) {
-  return (
-    <h4
-      className='col-span-2 text-3xl font-bold text-black dark:text-white md:text-right md:text-2xl font-source-serif-4'
-      {...props}
-    />
-  )
-}
-
 function SectionContent(props) {
   return <div className='col-span-12' {...props} />
 }
@@ -47,37 +38,14 @@ export function Home() {
     <Detail.Container>
       <Detail.ContentContainer>
 
-        {/* Avatar */}
-        <div className='justify-center flex mb-6 md:ml-20 dark:hidden'>
-          {/* <Image
-            src='/static/img/home.JPG'
-            alt='marmik'
-            width={200}
-            height={200}
-            quality={75}
-            className='rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl filter-image'
-          /> */}
-        </div>
-
         <div className='pb-24 md:pb-4 space-y-12 md:space-y-16'>
           {/* Bio */}
           <SectionContainer>
-          {/* <SectionTitle>about</SectionTitle> */}
             <SectionContent>
               <div className='prose prose-lg max-w-none -mb-8 font-source-serif-4'>
                 <p className='text-4xl font-bold font-instrument-serif'>Hey, i&apos;m Marmik</p>
                 <p className='text-xl font-instrument-serif'>welcome to my web <em>eden</em>.</p>
                 
-                {/* SVG Image */}
-                {/* <div className='flex justify-center my-6'>
-                  <Image
-                    src='/static/img/blossom-2.png'
-                    alt='blossom decoration'
-                    width={20}
-                    height={20}
-                    className='opacity-70 dark:opacity-50'
-                  />
-                </div> */}
                 <p className='text-lg'>since the past few years, most of my time is spent working on problems in deep learning. currently, 
                   i work on <em>interpretability</em> research, which i like to think of 
                   as <Link href='https://colah.github.io/notes/bio-analogies/' target='_blank' rel='noopener noreferrer' className='!text-amber-700 hover:!text-amber-800 dark:!text-amber-700 dark:hover:!text-amber-800 font-source-serif-4 !underline !decoration-solid !underline-offset-4 transition-colors'>the biology of artificial neural nets</Link>. 
@@ -132,7 +100,7 @@ export function Home() {
             <SectionContent>
             <div className='prose prose-lg max-w-none -mb-8 font-source-serif-4'>
                 <p className='text-lg'> i like meeting new people and if anything from above is interesting to you, 
-                  feel free to reach out to me on twitter or at <span className='underline decoration-dashed underline-offset-4'>marmik@berkeley.edu</span></p>
+                  feel free to reach out to me on twitter or at <span className='underline decoration-dashed underline-offset-4'>marmik [at] berkeley [dot] edu</span></p>
             </div>
 
             </SectionContent>
@@ -143,15 +111,8 @@ export function Home() {
 
           {/* Socials */}
           <SectionContainer>
-            {/* <SectionTitle>online</SectionTitle> */}
             <SectionContent>
               <div className='flex justify-center space-x-8 md:space-x-12 font-source-serif-4 text-xl'>
-                {/* <a
-                  href='mailto:marmik@psu.edu'
-                  className='font-bold text-gray-600 hover:text-amber-900 dark:text-gray-300 dark:hover:text-amber-700 transition-colors underline decoration-dashed underline-offset-4'
-                >
-                  email
-                </a> */}
                 <a
                   href='https://github.com/MarmikChaudhari'
                   className='font-bold text-gray-600 hover:text-amber-900 dark:text-gray-300 dark:hover:text-amber-700 transition-colors underline decoration-dashed underline-offset-4'
@@ -179,16 +140,7 @@ export function Home() {
               </div>
             </SectionContent>
           </SectionContainer>
-
-          {/* Spotify Widget */}
-          {/* <SectionContainer>
-            <SectionTitle>music</SectionTitle>
-            <SectionContent>
-            {/* <iframe className='border-radius:12px' src='https://open.spotify.com/embed/playlist/1wu9NQCwZEDS3jJNvvalCZ?utm_source=generator&theme=0' width='100%' height='352' frameBorder='0' allowFullScreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe> */}
-            {/* </SectionContent> */}
-          {/* </SectionContainer> */} 
-
-          
+         
         </div>
       </Detail.ContentContainer>
     </Detail.Container>

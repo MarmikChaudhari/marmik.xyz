@@ -1,6 +1,24 @@
 export const booksData = [
   // 2025 books
   {
+    title: 'Wetware',
+    author: 'Dennis Bray',
+    spineColor: '#2E8B57',
+    textColor: '#FFFFFF',
+    slug: 'wetware',
+    date: '2025',
+    coverImage: '/static/books/wetware.jpg'
+  },
+  {
+    title: 'If cats disappeared from the world',
+    author: 'Genki Kawamura',
+    spineColor: '#2E8B57',
+    textColor: '#FFFFFF',
+    slug: 'wetware',
+    date: '2025',
+    coverImage: '/static/books/cats-world.jpg'
+  },
+  {
     title: 'American Prometheus',
     author: 'Kai Bird & Martin J. Sherwin',
     spineColor: '#8B4513',

@@ -25,9 +25,6 @@ export function Nav() {
       </div>
       <div className='flex items-center w-auto'>
         <div className='text-lg md:text-xl font-normal md:font-medium md:flex-grow'>
-          {/* <Link href='/books' className='inline-block mr-3 md:mr-8 text-primary hover:text-amber-900 font-source-serif-4'>
-            books
-          </Link> */}
           <Link href='/blogs' className='inline-block mr-3 md:mr-8 text-primary hover:text-amber-900 font-source-serif-4'>
             blogs
           </Link>

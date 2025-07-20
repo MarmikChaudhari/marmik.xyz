@@ -34,7 +34,7 @@ export const Paintings = () => {
         </motion.div>
 
         <div className="flex justify-center mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[400px] overflow-hidden">
-          <PaintingsColumn paintings={paintings} duration={50} />
+          <PaintingsColumn paintings={paintings} duration={200} />
         </div>
       </div>
     </section>

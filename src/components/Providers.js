@@ -8,7 +8,6 @@ const defaultSEO = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    // url: 'https://marmik-xyz-marmikchaudharis-projects.vercel.app/',
     url: 'https://marmik.xyz/',
     site_name: 'marmik\'s web eden',
     images: [],
@@ -47,8 +46,6 @@ export function Providers() {
 
         {/* OpenGraph */}
         <meta property='og:title' content='marmik&apos;s web eden' key='title' />
-        {/* <meta property='og:image' content='https://marmik-xyz-marmikchaudharis-projects.vercel.app/static/banner.jpeg' /> */}
-        {/* <meta property='og:image' content='https://marmik.xyz/static/banner.jpeg' /> */}
 
       </Head>
 
