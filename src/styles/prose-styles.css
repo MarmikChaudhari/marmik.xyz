@@ -11,18 +11,21 @@
   margin: 1.5em auto;
 }
 
+blockquote {
+  @apply !border-l-amber-700 hover:!border-l-amber-800 dark:!border-l-amber-700 dark:hover:!border-l-amber-800;
+}
+
+.equation-container {
+  overflow-x: scroll;
+}
+
 .prose img {
   @apply w-full rounded-md mx-auto;
-  max-width: 600px;
   display: block;
 }
 
 .prose a {
-  @apply font-normal text-indigo-600 break-words no-underline hover:underline hover:underline-offset-2;
-}
-
-.prose a code {
-  @apply text-indigo-600 dark:text-indigo-500;
+  @apply font-normal !text-amber-700 hover:!text-amber-800 dark:!text-amber-700 dark:hover:!text-amber-800 break-words no-underline hover:underline hover:underline-offset-2;
 }
 
 .prose table {
@@ -124,6 +127,10 @@
 .prose p {
   @apply break-words;
   word-break: break-word;
+}
+
+.highlight-default {
+  @apply text-gray-900 dark:text-slate-200;
 }
 
 .prose.comment p,

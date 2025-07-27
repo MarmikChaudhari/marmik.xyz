@@ -3,17 +3,16 @@ import '../styles/dracula.css'
 import '../styles/prose-styles.css'
 
 import * as React from 'react'
-import { Nav } from '../components/Nav'
-import { Providers } from '../components/Providers'
+import { Layout } from '../components/Layout'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Analytics } from '@vercel/analytics/react'
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Nav />
-      <Providers />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
       <SpeedInsights />
       <Analytics />
     </>

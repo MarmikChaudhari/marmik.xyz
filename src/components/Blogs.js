@@ -15,6 +15,14 @@ export function Blogs() {
                 <ul className='space-y-2'>
                   <li>
                     <Link
+                      href='/blogs/superposition'
+                      className='!text-amber-700 hover:!text-amber-800 dark:!text-amber-700 dark:hover:!text-amber-800 font-source-serif-4 !underline !decoration-solid !underline-offset-4 transition-colors'
+                    >
+                      how neural networks think at scale
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href='/blogs/transformers'
                       className='!text-amber-700 hover:!text-amber-800 dark:!text-amber-700 dark:hover:!text-amber-800 font-source-serif-4 !underline !decoration-solid !underline-offset-4 transition-colors'
                     >

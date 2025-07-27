@@ -12,7 +12,7 @@ export function Nav() {
   }
 
   return (
-    <nav className='flex items-center justify-between p-4 md:p-6'>
+    <nav className='w-full flex items-center justify-between p-4 md:p-6'>
       <div className='flex items-center flex-shrink-0 ml-0 md:ml-4 mr-6'>
         <Link href='/' className='inline-block text-primary text-2xl md:text-3xl font-semibold hover:text-amber-900 font-source-serif-4'>
           marmik
